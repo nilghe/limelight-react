@@ -10,11 +10,11 @@ A lightweight react component for [Limelight Networks](http://support.video.lime
 Simply add `limelight.jsx` to your project and begin using it.
 
 ```javascript
-var React           = require('react');
-var ReactDOM        = require('react-dom');
-var LimelightVideo  = require('./limelight.jsx');
+let React           = require('react');
+let ReactDOM        = require('react-dom');
+let LimelightVideo  = require('./limelight.jsx');
 
-var Example = React.createClass({
+let Example = React.createClass({
     getDefaultProps() {
         return {
             width: "100%",
@@ -23,7 +23,7 @@ var Example = React.createClass({
     },
 
     render() {
-        var options = {
+        let options = {
             source: this.props.mediaSource,
             id: this.props.id,
             width: this.props.width,

@@ -1,6 +1,6 @@
-var React = require('react');
+let React = require('react');
 
-var LimelightVideo = React.createClass({
+let LimelightVideo = React.createClass({
    
     /**
      * Need to inject the limelight embed code as raw HTML for it to work properly
